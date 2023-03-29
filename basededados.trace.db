@@ -1,0 +1,6 @@
+2022-04-02 19:54:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "NOME VARCHAR(50)": "'stringghjfajghfjhgjafhgljkfhgjahfjghjfahgjafhjghajhgj;haf;gjnajhfgd;afjgnfgnf;ajghnjfahg;jafhgj;hafjkghfagnf;jagha;fdjgh;' (121)"; SQL statement:
+insert into autor (id, biografia, dataNascimento, email, isni, nome) values (default, ?, ?, ?, ?, ?) [22001-197]
+2022-04-02 19:58:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "NOME VARCHAR(50)": "STRINGDECODE('strifdjnfkldjfkdjskfjdkgjdfklgjklfjagfmsz;lkfgd''sfgjsafkgjgjahsf''glkajfglkfhjagf\u00e1khnaf;sd''lklhjdfng') (99)"; SQL statement:
+insert into autor (id, biografia, dataNascimento, email, isni, nome) values (default, ?, ?, ?, ?, ?) [22001-197]
